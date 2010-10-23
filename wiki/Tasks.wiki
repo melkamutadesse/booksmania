@@ -1,14 +1,13 @@
 #labels -
 #Page with descriptions of tasks.
 
-= Task1 =
+== Task1 ==
 
 1. Пользователь может зарегистрировать книгу, указав ее название и автора. И также     посмотреть на сервере список зарегистрированных книг.
+2. Создать war для сервера. Deploy'ить под GlassFish.
 
+== Task2 ==
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+1. Регистрация книги и просмотр имеющихся на сервере с использованием пользовательского интерфейса.
+2. Использование базы данных mySQL для хранения книг на сервере.
+3. Deploy под Tomcat.
