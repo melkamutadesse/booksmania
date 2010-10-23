@@ -4,4 +4,6 @@
     <system systemId="http://localhost:8080/BooksManiaServer/GetHello?xsd=1" uri="xml-resources/web-service-references/GetHello/wsdl/localhost_8080/BooksManiaServer/GetHello.xsd_1.xsd"/>
     <system systemId="http://localhost:8080/BooksManiaServer/BookBase?wsdl" uri="xml-resources/web-service-references/BookBase/wsdl/localhost_8080/BooksManiaServer/BookBase.wsdl"/>
     <system systemId="http://localhost:8080/BooksManiaServer/BookBase?xsd=1" uri="xml-resources/web-service-references/BookBase/wsdl/localhost_8080/BooksManiaServer/BookBase.xsd_1.xsd"/>
+    <system systemId="http://localhost:8084/BooksManiaServer/BookBase?wsdl" uri="xml-resources/web-service-references/BookBase/wsdl/localhost_8084/BooksManiaServer/BookBase.wsdl"/>
+    <system systemId="http://localhost:8084/BooksManiaServer/BookBase?xsd=1" uri="xml-resources/web-service-references/BookBase/wsdl/localhost_8084/BooksManiaServer/BookBase.xsd_1.xsd"/>
 </catalog>

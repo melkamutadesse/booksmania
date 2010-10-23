@@ -11,7 +11,6 @@
 
 package booksmaniaclient;
 
-import java.util.LinkedList;
 import java.util.List;
 import javax.swing.JOptionPane;
 
@@ -155,6 +154,7 @@ public class RegistrationForm extends javax.swing.JFrame {
             edu.aptu.sd.BookBase port = service.getBookBasePort();
             port.registerBook(jTextField1.getText(), jTextField2.getText());
         } catch (Exception ex) {
+            System.out.println(ex.getMessage());
         }
         clearTextFields();
     }//GEN-LAST:event_jButton1ActionPerformed

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <xs:schema version="1.0" targetNamespace="http://sd.aptu.edu/" xmlns:tns="http://sd.aptu.edu/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <xs:element name="RegisterBook" nillable="true" type="tns:registerBook"/>
+  <xs:element name="RegisterBook" type="tns:RegisterBook"/>
 
-  <xs:element name="showBooks" nillable="true" type="tns:showBooks"/>
+  <xs:element name="showBooks" type="tns:showBooks"/>
 
-  <xs:element name="showBooksResponse" nillable="true" type="tns:showBooksResponse"/>
+  <xs:element name="showBooksResponse" type="tns:showBooksResponse"/>
 
   <xs:complexType name="showBooks">
     <xs:sequence/>
@@ -13,11 +13,11 @@
 
   <xs:complexType name="showBooksResponse">
     <xs:sequence>
-      <xs:element name="return" type="xs:anyType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="return" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
 
-  <xs:complexType name="registerBook">
+  <xs:complexType name="RegisterBook">
     <xs:sequence>
       <xs:element name="author" type="xs:string" minOccurs="0"/>
       <xs:element name="title" type="xs:string" minOccurs="0"/>
