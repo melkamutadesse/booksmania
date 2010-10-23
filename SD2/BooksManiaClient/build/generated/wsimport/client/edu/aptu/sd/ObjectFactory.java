@@ -44,19 +44,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ShowBooksResponse }
-     * 
-     */
-    public ShowBooksResponse createShowBooksResponse() {
-        return new ShowBooksResponse();
-    }
-
-    /**
      * Create an instance of {@link ShowBooks }
      * 
      */
     public ShowBooks createShowBooks() {
         return new ShowBooks();
+    }
+
+    /**
+     * Create an instance of {@link ShowBooksResponse }
+     * 
+     */
+    public ShowBooksResponse createShowBooksResponse() {
+        return new ShowBooksResponse();
     }
 
     /**

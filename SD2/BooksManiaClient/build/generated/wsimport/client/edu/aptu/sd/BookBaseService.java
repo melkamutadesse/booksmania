@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.1
  * 
  */
-@WebServiceClient(name = "BookBaseService", targetNamespace = "http://sd.aptu.edu/", wsdlLocation = "http://localhost:8080/BooksManiaServer/BookBase?wsdl")
+@WebServiceClient(name = "BookBaseService", targetNamespace = "http://sd.aptu.edu/", wsdlLocation = "http://localhost:8084/BooksManiaServer/BookBase?wsdl")
 public class BookBaseService
     extends Service
 {
@@ -30,9 +30,9 @@ public class BookBaseService
         try {
             URL baseUrl;
             baseUrl = edu.aptu.sd.BookBaseService.class.getResource(".");
-            url = new URL(baseUrl, "http://localhost:8080/BooksManiaServer/BookBase?wsdl");
+            url = new URL(baseUrl, "http://localhost:8084/BooksManiaServer/BookBase?wsdl");
         } catch (MalformedURLException e) {
-            logger.warning("Failed to create URL for the wsdl Location: 'http://localhost:8080/BooksManiaServer/BookBase?wsdl', retrying as a local file");
+            logger.warning("Failed to create URL for the wsdl Location: 'http://localhost:8084/BooksManiaServer/BookBase?wsdl', retrying as a local file");
             logger.warning(e.getMessage());
         }
         BOOKBASESERVICE_WSDL_LOCATION = url;
