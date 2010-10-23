@@ -1,0 +1,14 @@
+#labels -
+#Page with descriptions of tasks.
+
+= Task1 =
+
+1. Пользователь может зарегистрировать книгу, указав ее название и автора. И также     посмотреть на сервере список зарегистрированных книг.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
