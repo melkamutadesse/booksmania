@@ -1,4 +1,3 @@
-#labels -
 #Page with descriptions of tasks.
 
 == Task1 ==
