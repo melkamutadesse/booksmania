@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2-hudson-752-. --><xs:schema xmlns:tns="http://server.sd.aptu.edu/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://server.sd.aptu.edu/">
+
+<xs:element name="registerBook" type="tns:registerBook" />
+
+<xs:element name="registerBookResponse" type="tns:registerBookResponse" />
+
+<xs:element name="registerUser" type="tns:registerUser" />
+
+<xs:element name="registerUserResponse" type="tns:registerUserResponse" />
+
+<xs:element name="setUserStatus" type="tns:setUserStatus" />
+
+<xs:element name="setUserStatusResponse" type="tns:setUserStatusResponse" />
+
+<xs:element name="showBooks" type="tns:showBooks" />
+
+<xs:element name="showBooksResponse" type="tns:showBooksResponse" />
+
+<xs:complexType name="registerUser">
+<xs:sequence>
+<xs:element name="address" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="registerUserResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setUserStatus">
+<xs:sequence>
+<xs:element name="clientId" type="xs:int" />
+<xs:element name="online" type="xs:boolean" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setUserStatusResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="showBooks">
+<xs:sequence>
+<xs:element name="searchString" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="showBooksResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="registerBook">
+<xs:sequence>
+<xs:element name="clientID" type="xs:int" />
+<xs:element name="author" type="xs:string" minOccurs="0" />
+<xs:element name="title" type="xs:string" minOccurs="0" />
+<xs:element name="size" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="registerBookResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
