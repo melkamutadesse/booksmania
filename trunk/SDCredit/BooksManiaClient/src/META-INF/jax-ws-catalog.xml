@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/BooksManiaServer/GetHello?wsdl" uri="xml-resources/web-service-references/GetHello/wsdl/localhost_8080/BooksManiaServer/GetHello.wsdl"/>
+    <system systemId="http://localhost:8080/BooksManiaServer/GetHello?xsd=1" uri="xml-resources/web-service-references/GetHello/wsdl/localhost_8080/BooksManiaServer/GetHello.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/BooksManiaServer/BookBase?wsdl" uri="wsdl/localhost_8080/BooksManiaServer/BookBase.wsdl"/>
+    <system systemId="http://localhost:8080/BooksManiaServer/BookBase?xsd=1" uri="wsdl/localhost_8080/BooksManiaServer/BookBase.xsd_1.xsd"/>
+    <system systemId="http://localhost:8084/BooksManiaServer/BookBase?wsdl" uri="wsdl/localhost_8084/BooksManiaServer/BookBase.wsdl"/>
+    <system systemId="http://localhost:8084/BooksManiaServer/BookBase?xsd=1" uri="wsdl/localhost_8084/BooksManiaServer/BookBase.xsd_1.xsd"/>
+    <system systemId="http://localhost:8084/BooksManiaServer/test?wsdl" uri="wsdl/localhost_8084/BooksManiaServer/test.wsdl"/>
+    <system systemId="http://localhost:8084/BooksManiaServer/test?xsd=1" uri="wsdl/localhost_8084/BooksManiaServer/test.xsd_1.xsd"/>
+    <system systemId="http://localhost:8084/BooksManiaServer/BooksManiaService?wsdl" uri="wsdl/localhost_8084/BooksManiaServer/BooksManiaService.wsdl"/>
+    <system systemId="http://localhost:8084/BooksManiaServer/BooksManiaService?xsd=1" uri="wsdl/localhost_8084/BooksManiaServer/BooksManiaService.xsd_1.xsd"/>
+</catalog>
